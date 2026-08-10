@@ -1,0 +1,15 @@
+replicaCount: 3
+
+environment: prod
+
+image:
+  repository: localhost:5001/production-platform-api
+  tag: "1.0.0"
+
+resources:
+  requests:
+    cpu: 500m
+    memory: 512Mi
+  limits:
+    cpu: "1"
+    memory: 1Gi

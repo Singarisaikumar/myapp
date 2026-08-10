@@ -1,0 +1,47 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.secret.yaml
+*.secret.yml
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Logs
+*.log
+logs/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Helm packaged charts
+*.tgz
+
+# Coverage
+.coverage
+htmlcov/
+coverage.xml
+
+# Temporary
+tmp/
+temp/
+*.tmp
